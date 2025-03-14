@@ -1,6 +1,6 @@
-# FlexxiDrive Frontend
+# FlexxyDrive Frontend
 
-![FlexxiDrive Logo](https://flexxydrive.com/logo2.svg)
+![FlexxyDrive Logo](https://flexxydrive.com/logo2.svg)
 
 ## Overview
 
