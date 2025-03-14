@@ -50,7 +50,7 @@ export default function Home() {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/register/api/register/",
+        "http://ecssta-fxdde-yfjm73atsmtx-381270657.us-east-1.elb.amazonaws.com/register/api/register/",
         payload,
         { headers: { "Content-Type": "application/json" } }
       );
