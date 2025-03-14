@@ -11,7 +11,7 @@ This repository contains the frontend of the FlexxyDrive platform, built with Ne
 
 <p align="center">
   <img src="https://miro.medium.com/v2/resize:fit:1200/0*bEOtfBmYyH9TJits.png" alt="FlexxyDrive Logo" width="300"/>
-  <img src="https://images.seeklogo.com/logo-png/32/2/next-js-logo-png_seeklogo-321806.png" alt="Next.js Logo" width="300"/>
+  <img src="https://static-00.iconduck.com/assets.00/nextjs-icon-512x309-yynfidez.png" alt="Next.js Logo" width="300"/>
 </p>
 
 ## Features
