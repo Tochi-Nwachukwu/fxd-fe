@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FlexxiDrive Frontend
 
-## Getting Started
+![FlexxiDrive Logo](https://flexxydrive.com/logo2.svg)
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+FlexxyDrive is a next-generation ride-hailing platform focused on affordability, sustainability, and community-driven mobility. The platform offers flexible ride options, including carpooling, private rides, and scheduled trips, providing eco-friendly and cost-effective transportation solutions.
+
+This repository contains the frontend of the FlexxyDrive platform, built with Next.js and designed for seamless user experience across web and mobile devices.
+
+
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:1200/0*bEOtfBmYyH9TJits.png" alt="FlexxyDrive Logo" width="300"/>
+  <img src="https://images.seeklogo.com/logo-png/32/2/next-js-logo-png_seeklogo-321806.png" alt="Next.js Logo" width="300"/>
+</p>
+
+## Features
+
+- User-friendly interface for booking and managing rides.
+- Carpooling & Private Ride Options – Choose from Flex, Flex Plus, or Flex Prime.
+- Real-time updates on ride availability and pricing.
+- Secure authentication and user profile management.
+- Integration with backend APIs for seamless ride booking and payment processing.
+
+## Prerequisites
+
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v18 or later)
+- [Yarn](https://yarnpkg.com/) or npm
+
+## Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/flexxidrive/frontend.git
+   cd frontend
+   ```
+
+2. Install dependencies:
+   ```sh
+   yarn install  # or npm install
+   ```
+
+## Environment Configuration
+
+Create a `.env.local` file in the root directory and add the required environment variables:
+
+```env
+NEXT_PUBLIC_API_BASE_URL=https://api.flexxidrive.com
+NEXT_PUBLIC_AUTH_URL=https://auth.flexxidrive.com
+NEXT_PUBLIC_STORAGE_BUCKET=s3://flexxidrive-bucket
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Running the Development Server
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Start the Next.js development server:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```sh
+yarn dev  # or npm run dev
+```
 
-## Learn More
+Access the app at `http://localhost:3000`.
 
-To learn more about Next.js, take a look at the following resources:
+## Building for Production
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Build the optimized production version:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```sh
+yarn build  # or npm run build
+```
 
-## Deploy on Vercel
+Start the production server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```sh
+yarn start  # or npm start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deployment
+
+FlexxiDrive's frontend can be deployed using Vercel, AWS Amplify, or any cloud hosting service supporting Next.js.
+
+Example Vercel Deployment:
+
+```sh
+vercel deploy
+```
+
+## Contribution Guidelines
+
+1. Fork the repository.
+2. Create a new feature branch.
+3. Commit and push your changes.
+4. Submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
